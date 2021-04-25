@@ -1,0 +1,57 @@
+.board {
+    transform: translate(150px, 0px);
+}
+
+.point {
+    height: 20px;
+    width: 20px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    transform: translate(-8px, 8px);
+    /* Standard syntax */
+    z-index: 50;
+    cursor: pointer;
+}
+
+#b {
+    margin-left: 25px;
+}
+
+.line {
+    background-color: black;
+    height: 1px;
+    position: absolute;
+    z-index: 2;
+    transform-origin: 0% 0%;
+}
+
+.row>p {
+    display: inline-block;
+}
+
+.team1 {
+    background-color: red;
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 99;
+}
+
+.team2 {
+    background-color: black;
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 99;
+}
+
+.c {
+    transform: translate(-22px, -20px);
+    cursor: pointer;
+}
